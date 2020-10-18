@@ -13,13 +13,14 @@ export default class NavigationBar extends Component {
                     style={{'flexDirection': 'row', 
                             'justifyContent':'space-between',
                             'padding':'2em',
-                            'border-bottom': '2px #dedede solid'}}
+                            'margin': '1.5em',
+                            'border-bottom': '5px #dedede solid'}}
                  >
                     <Navbar.Brand>
-                        <Image src={profile} roundedCircle fluid style={{'height':'4em'}}/>
+                        <Image src={profile} roundedCircle fluid style={{'height':'5em'}}/>
                     </Navbar.Brand>
 
-                    <Nav>
+                    <Nav style={{'font-size':'1.2em', 'font-color':'black'}}>
                         <Nav.Link> About </Nav.Link>
                         <Nav.Link> Blog </Nav.Link>
                         <Nav.Link> Contact </Nav.Link>

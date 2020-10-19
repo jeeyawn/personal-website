@@ -17,13 +17,15 @@ export default class NavigationBar extends Component {
                             'border-bottom': '5px #dedede solid'}}
                  >
                     <Navbar.Brand>
-                        <Image src={profile} roundedCircle fluid style={{'height':'5em'}}/>
+                        <Nav.Link href='/'>
+                            <Image src={profile} roundedCircle fluid style={{'height':'5em'}}/>
+                        </Nav.Link>
                     </Navbar.Brand>
 
                     <Nav style={{'font-size':'1.2em', 'font-color':'black'}}>
-                        <Nav.Link> About </Nav.Link>
-                        <Nav.Link> Blog </Nav.Link>
-                        <Nav.Link> Contact </Nav.Link>
+                        <Nav.Link href='/construction'> About </Nav.Link>
+                        <Nav.Link href='/construction'> Blog </Nav.Link>
+                        <Nav.Link href='/construction'> Contact </Nav.Link>
                     </Nav>
                 </Navbar>
             </div>

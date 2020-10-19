@@ -18,7 +18,7 @@ export default class NavigationBar extends Component {
                  >
                     <Navbar.Brand>
                         <Nav.Link href='/'>
-                            <Image src={profile} roundedCircle fluid style={{'height':'5em'}}/>
+                            <Image src={profile} roundedCircle style={{'height':'5em'}}/>
                         </Nav.Link>
                     </Navbar.Brand>
 
